@@ -1,10 +1,12 @@
-.h5 {
+.h6 {
     color: aqua;
 }
 
 p {
     color: blue;
-    font-weight: 200;
+    font-weight: 500;
+    padding-top: 50px;
+    font-size: 25px;
 }
 
 table,
@@ -18,20 +20,13 @@ hr {
 }
 
 
-/* responsive mobile  */
-
-@media only screen and (max-width:500px) {
-    .row {
-        display: block;
-        text-align: center;
-    }
-    .col-3 {
-        width: 100%;
-    }
-    p {
-        font-size: 24px;
-    }
-    .row {
-        font-size: 12px;
-    }
-}
+/* thead,
+tbody,
+tfoot,
+tr,
+td,
+th {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+} */

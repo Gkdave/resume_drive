@@ -8,11 +8,11 @@ body {
 
 #top-bar {
     background-color: aquamarine;
-    padding: 10px 0px;
+    padding: 10px 10px;
 }
 
-#top-bar img {
-    text-align: right;
+#top-bar div {
+    text-align: center;
 }
 
 h2,
