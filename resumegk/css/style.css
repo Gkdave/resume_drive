@@ -7,23 +7,51 @@ body {
 }
 
 #top-bar {
-    background-color: aquamarine;
-    padding: 10px 10px;
+    background-color: aliceblue;
+    padding: 10px 0px;
+    text-align: left;
 }
 
-#top-bar div {
-    text-align: center;
-}
+
 
 h2,
 h4,
 h5 {
     color: blueviolet;
-    text-align: center;
+    text-align: left;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+#rem {
+    background-color: antiquewhite;
+    margin-top: 0;
+    overflow: auto;
+    padding: 0 10px;
+}
+
+#rem P {
+    padding-left: 5px;
+
+    font-size: 20px;
+    color: black;
+}
+
+.section50 {
+    width: 50%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.section50 #loc {
+    float: right;
 }
 
 #exp {
-    background-color: darkgoldenrod;
+    background-color: azure;
     margin-top: 0;
     overflow: auto;
     padding: 0 10px;
@@ -32,7 +60,7 @@ h5 {
 #exp p {
     padding-left: 5px;
     /* padding-top: 5px; */
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .section50 {
@@ -44,64 +72,110 @@ h5 {
 
 .section50 #time {
     float: right;
+    font-weight: bold;
 }
 
 #tech {
-    background-color: darksalmon;
+    background-color: lightblue;
     font-size: 18px;
     padding: 0 10px;
     overflow: auto;
 }
 
-.section25 {
+.section40 {
     width: 25%;
     float: left;
+    font-weight: bold;
     box-sizing: border-box;
 }
 
-.section75 {
-    width: 75%;
+.section50 {
+    width: 50%;
     padding-top: 0px;
+
 }
 
-.section75 p {
+.section50 p {
     color: black;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
+    float: right;
 }
 
 #pro {
     background-color: honeydew;
     overflow: auto;
     padding-left: 20px;
+    font-weight: bold;
 }
 
 #previous {
-    background-color: darkcyan;
+    background-color: blanchedalmond;
     overflow: auto;
     padding-left: 20px;
+    font-weight: bold;
+
 }
+
+#previous p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#edu {
+    background-color: aliceblue;
+    overflow: auto;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+/* .table {
+    
+    text-align: left;
+    background-color: antiquewhite;
+    font-weight: bold;
+} */
+table
+{
+    border:  solid black;
+    font-weight: 700;
+    background-color: antiquewhite;
+    width: 100%;
+    text-align: left;
+}
+
+th,
+td 
+
 
 
 /* resposive mobile  */
 
 @media only screen and (max-width:500px) {
+
     .section25,
     .section50,
-    .section75 {
+    .section60 {
         width: 100%;
     }
+
     .section50 {
         letter-spacing: 1px;
-        font-size: 21px;
+        font-size: 23px;
     }
+
     .section25 {
         font-size: 23px;
     }
+
     #pro {
-        font-size: 24px;
+        font-size: 23px;
     }
+
     #previous {
-        font-size: 25px;
+        font-size: 23px;
     }
 }
